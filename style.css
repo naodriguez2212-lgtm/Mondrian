@@ -16,6 +16,8 @@
 }
 
 .Thing1{
-    grid-column-start: 1;    /* item starts on column line 1 */
-    grid-column-end: 3;      /* item ends on columnline 3 */
+    grid-row-start: 1;    /* item starts on row line 1 */
+    grid-row-end: 4;      /* item ends on row line 5 */
+    grid-column-start: 3;    /* item starts on column 3 */
+    grid-column-end: 4;      /* item ends on column line 4 */
 }
