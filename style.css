@@ -1,0 +1,21 @@
+.container{
+    background-color:pink
+    display: grid;
+    grid-template-colums: auto auto auto auto;   /* this creates 4 xolums of equal width */
+    grid-gap: 10px;                /* this adds 10px space between all rows and columns */
+    height: 650px;
+}
+
+.item{
+    background-color:lightgreen
+    color: lightskyblue;       /* changes text color */
+    font-size: 30px;           /* changes text size */
+    padding: 10px;             /* adds space around the text inside the div box */
+    text-align: center;        /* pretty self-explanatory */
+    font-family: 'Montserrat', sans-serif;       /* changes typeface */
+}
+
+.Thing1{
+    grid-column-start: 1;    /* item starts on column line 1 */
+    grid-column-end: 3;      /* item ends on columnline 3 */
+}
