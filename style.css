@@ -7,7 +7,7 @@
 }
 
 .item{
-    background-color:lightgreen
+    background-color:lightgreen;
     color: lightskyblue;       /* changes text color */
     font-size: 30px;           /* changes text size */
     padding: 10px;             /* adds space around the text inside the div box */
