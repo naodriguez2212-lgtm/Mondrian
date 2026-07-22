@@ -3,7 +3,7 @@
     display: grid;
     grid-template-colums: auto auto auto auto;   /* this creates 4 xolums of equal width */
     grid-gap: 10px;                /* this adds 10px space between all rows and columns */
-    height: 650px;
+    height: 1200px;
 }
 
 .item{
